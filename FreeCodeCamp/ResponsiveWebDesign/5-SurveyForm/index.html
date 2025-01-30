@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>"I spy!" Generator</title>
+      <link rel="stylesheet" href="styles.css" />
+      <meta charset="utf-8"/>
+  </head>
+  <body>
+  <section id="intro">
+    <h1 id="title">"I spy!" Generator</h1>
+    <p id="description">Great for those long car trips with kids!</p>
+  </section>
+
+  <form id="survey-form">
+    <fieldset id="bio">
+      <label id="name-label" for="name"> Please enter your name:</label>
+      <input id="name" type="text" required placeholder="Jane Smith"></textbox>
+      <label id="email-label" for="email" > Email:</label>
+<!-- TODO 6: verify html5 validation for email -->
+      <input id="email" type="email" required placehholder="ispy@fun.org"></input>
+      <label id="number-label" for="number"> How many items?</label>
+<!-- TODO 8,9: verify html5 validation, numbers only and within range -->
+      <input id="number" type="number" min="1" max="24" placeholder="24"></input> 
+    </fieldset>
+
+    <hr />
+    <fieldset>
+      <h2>Color me silly</h2>
+      <label id="dropdown-label" for="dropdown">What color ink? </label>
+      <!-- item 12 --> 
+      <select id="dropdown" name="colorMe"> 
+        <option value="vColor1" selected>Blue</option>
+        <option value="vColor2" >Red</option>
+        <option value="vColor3" >Green</option>
+      </select>
+    </fieldset>
+
+    <hr />
+    <fieldset>
+      <h2>Delivery method</h2>
+      <!-- item 13 --> 
+      <input type="option" name="optDelivery" id="idOptEmail" value="vEmail" selected/>
+      <input type="option" name="optDelivery" id="idOptText" value="vText" />
+    
+    </fieldset>
+  
+    <hr />
+    <fieldset>
+      <h2>Which seasons to include?</h2>
+      <!-- item 14 --> 
+      <input type="checkbox" id="idWin" value="vWinter"> Winter</input>
+      <input type="checkbox" id="idSpr" value="vSpring"> Spring</input>
+      <input type="checkbox" id="idSmr" value="vSummer" checked> Summer</input>
+      <input type="checkbox" id="idFll" value="vFall"> Fall</input>
+    </fieldset>
+    
+    <hr />
+    <fieldset>
+      <h2>What would you like to say to the participants?</h2>
+      <textarea id="idWishes" name="nWishes" rows="5" cols="60" placeholder="Good luck searching!">
+      </textarea>
+    </fieldset>
+  
+    <hr />
+    <input type="submit" id="submit" value="Let's go!" />
+  </form>
+
+  some stuff here 
+  </br>
+  <h1> Todo</h1>
+    <li> Check ADA</li>
+    <li> Tests</li>
+    <li> Terrible colors</li>
+    <li> Option buttons</li>
+    <li> No background image, rather an 
+      painting frame with an internal fade? </li>
+    <li> - </li>
+    <li> - </li>
+    
+
+
+
+  <footer>
+    <h3> Enjoy the trip! </h3>
+  </footer>
+  
+  </body>
+</html>

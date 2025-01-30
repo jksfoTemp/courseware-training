@@ -1,0 +1,13 @@
+body{
+  color: blue;
+  
+/* www.freepik.com/free-vector */
+background-image: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.2) 100%), url("https://img.freepik.com/free-vector/treasure-hunt-flat-composition-with-top-view-magnifier-map-with-compass-mattock-vector-illustration_1284-75444.jpg?w=740&t=st=1720412174~exp=1720412774~hmac=1857d52e031c644163f65f12ef24f86389d7b017b9beef47dd597f692b5dc484");
+
+/*  background-image: url("https://media.istockphoto.com/id/1086794928/photo/vintage-map-and-accessories.jpg?s=1024x1024&w=is&k=20&c=vJhxuG_YlOBH11UBkk7bG4_K5pVeRKQhWqH9xvqkXSY="); 
+*/
+ /*
+ filter: alpha(opacity=20);
+ */
+  opacity: 008;
+}

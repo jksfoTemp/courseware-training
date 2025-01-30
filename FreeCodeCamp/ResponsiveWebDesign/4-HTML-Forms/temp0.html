@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>"I spy!" Generator<title>
+      <link rel="stylesheet" href="styles.css" />
+      <!-- script scr="script.js" type="javascript"> </script> -->
+      <meta charset="utf-8"/>
+
+  </head>
+  <body>
+    <section id="intro">
+    <h1 id="title">"I spy!" Generator</h1>
+      <p id="description">Great for those long car trips with kids!</p>
+
+</section>
+<section id="container">
+  <form id="survey-form">
+  <hr />
+    <label id="label-name" for="name">Please enter your name:</label>
+    <input id="name" type="text" required placeholder="Jane Smith"></textbox>
+    <!-- No js allowed unless embedded so no go
+    var email = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/; -->
+    <label id="label-email" for="email" > Email:</label>
+    <input id="email" type="email" required placehholder="ispy@fun.org"></input>
+    <label id="label-number" for="number">How many items?</label>
+    <input id="number" type="number" min="1" max="24" placeholder="24"></input>
+
+  <hr />
+    <h2>Color me silly</h2>
+    <label id="label-dropdown" for="dropdown">What color ink? </label>
+    <select id="dropdown" name="colorMe">
+      <option value="vColor1" selected>Blue</option>
+      <option value="vColor2" >Red</option>
+      <option value="vColor3" >Green</option>
+    </select>
+
+  <hr />
+    <h2>Delivery method</h2>
+    <input type="option" name="optDelivery" id="idOptEmail" value="vEmail" selected/>
+    <input type="option" name="optDelivery" id="idOptText" value="vText" />
+
+  <hr />
+    <h2>Which seasons to include?</h2>
+    <input type="checkbox" id="idWin" value="vWinter"> Winter</input>
+    <input type="checkbox" id="idSpr" value="vSpring"> Spring</input>
+    <input type="checkbox" id="idSmr" value="vSummer" checked> Summer</input>
+    <input type="checkbox" id="idFll" value="vFall"> Fall</input>
+
+  <hr />
+    <h2>What would you like to say to the participants?</h2>
+      <textarea id="idWishes" name="nWishes" rows="5" cols="60" placeholder="Good luck searching!"></textarea>
+
+  <hr />
+      <input type="submit" id="submit" value="Let's go!" />
+
+  </form>
+
+  some stuff here
+</section>
+
+Hello
+<footer>
+  footer
+</footer>
+
+  </body>
+</html>
